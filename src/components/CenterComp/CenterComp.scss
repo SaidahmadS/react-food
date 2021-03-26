@@ -1,0 +1,95 @@
+.center-comp {
+  margin-top: 24px;
+
+  .added {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    .added-left {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 40px;
+        height: 40px;
+        margin-right: 8px;
+      }
+      .food-info {
+        font-style: normal;
+        font-weight: 500;
+        h4 {
+          font-size: 14px;
+          line-height: 130%;
+          color: #FFFFFF;
+        }
+        span {
+          font-size: 12px;
+          line-height: 140%;
+          color: #ABBBC2;
+        }
+      }
+    }
+    .added-right {
+      display: flex;
+      align-items: center;
+
+      input {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+        outline: none;
+        background: #2D303E;
+        border: 1px solid #393C49;
+        box-sizing: border-box;
+        border-radius: 8px;
+        width: 48px;
+        height: 48px;
+        text-align: center;
+      }
+      h3 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+        margin-left: 21px;
+      }
+    }
+  }
+
+  .removed {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    input {
+      width: 100%;
+      height: 48px;
+      outline: none;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 140%;
+      color: #E0E6E9; 
+      background: #2D303E;
+      border: 1px solid #393C49;
+      box-sizing: border-box;
+      border-radius: 8px;
+      display: block;
+      padding: 14px;
+      ::placeholder {
+        color: #889898;
+      }
+    }
+    .icon {
+      margin-left: 16px;
+      width: 48px;
+      height: 48px;
+      cursor: pointer;
+    }
+  }
+}
